@@ -1,0 +1,129 @@
+#admin
+catalog
+common
+design
+error
+extension
+feed
+localisation
+module
+payment
+report
+
+#catalog
+	account
+		account
+		address
+		download
+		edit
+		forgotten
+		login
+		logout
+		newsletter
+		order
+		password
+		register
+		return
+		reward
+		success
+		transaction
+		voucher
+		wishlist
+	affiliate
+		account
+		edit
+		forgotten
+		login
+		logout
+		password
+		payment
+		register
+		success
+		tracking
+		transaction
+	checkout
+		cart
+		checkout
+		confirm
+		guest_shipping
+		guest
+		login
+		manual
+		payment_address
+		payment_method
+		register
+		shipping_address
+		shipping_method
+		success
+	common
+		column_left
+		column_right
+		content_bottom
+		content_top
+		footer
+		header
+		home
+		maintenace
+		seo_url
+	error
+		not_found
+	feed
+		google_base
+		google_sitemap
+	information
+		contact
+		information
+		sitemap
+	module
+		account
+		addiliate
+		banner
+		bestseller
+		carousel
+		cart
+		category
+		currency
+		featured
+		filter
+		google_talk
+		information
+		language
+		latest
+		slideshow
+		special
+		store
+		welcome
+	payment
+		authorizenet_aim
+		authorizenet_sim
+		bank_transfer
+		cheque
+		cod
+		free_checkout
+		google_checkout
+		klarna_account
+		klarna_invoice
+		liqpay
+		moneybookers
+		nochex
+		paymate
+		paypoint
+		payza
+		perpetual_payments
+		pp_express
+		pp_pro_uk
+		pp_pro
+		pp_standard
+		sagepay_direct
+		sagepay_us
+		sagepay
+		twocheckout
+		web_payment_software
+		worldpay
+	product
+		category
+		compare
+		manufacturer
+		product
+		search
+		special

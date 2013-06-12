@@ -1,0 +1,8 @@
+# 统计:
+# 不同数据值的个数
+select count(distinct
+date(from_unixtime(u.`add_time`))) from ecs_order_info as u where order_status=5 limit 10000
+取出不同数据的个数count(distinct xxx)
+## 某一个字段至少出现了xx次的行
+select count(*) from (select count(*) from ecs_order_info group by user_id having count(*)>1 ) as t1 
+使用select嵌套是为了统计这些不同的字段的数量

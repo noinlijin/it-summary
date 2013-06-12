@@ -1,0 +1,10 @@
+* 类似于linux文件系统
+形式如下
+
+下面一些模块会使用到
+* 配置命名   /etc/xxx/xxx
+* 控制器命名 /controller/xxx/xxx
+* ModelManager(Service)命名 /modelmanager/xxx/xxx
+* di里面的服务的命名 /di/xxx/xxx
+* 
+* 测试数据库mock数据命名 /test/dataset/xxx/xxx/

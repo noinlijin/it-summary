@@ -1,0 +1,8 @@
+# behat/mink
+  Mink is an open source acceptance test framework for web applications, written in PHP 5.3.
+  有无头测试driver,浏览器控制测试driver
+  GoutteDriver    无头,无js
+  SahiDriver      浏览器控制(新)
+  ZombieDriver    无头,有js,只支持chromium
+  SeleniumDriver  浏览器控制(旧)
+  Selenium2Driver 浏览器控制(旧)

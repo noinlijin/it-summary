@@ -1,0 +1,11 @@
+# :help 帮助首页
+# :help index 所有命令的索引
+# :help x 关于x命令的帮助
+# :help deleting 关于deleting这个主题的帮助
+# :help CTRL-A 关于按键Ctrl+a 的帮助
+# :help i_CTRL-H 关于在插入模式下CTRL+H的帮助
+# :help -t 命令行参数-t的帮助
+# :help 'number' 选项number的帮助
+# :help i_<Up> 关于插入模式下按键Up的帮助
+# :help E37 关于37号错误的帮助
+# :helpgrep lines 在所有帮助里面正则匹配 lines

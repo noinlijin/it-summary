@@ -1,0 +1,77 @@
+/app
+  /chmod.sh   改权限       (不是symfony带的)各种脚本(因为缺少symfony运行环境而加入的类)     
+  /bootstrap.php.cache  symfony类缓存
+  /cache         项目缓存
+  /config        项目配置
+  /logs 日志
+  
+  /phpunit.xml.dist phpunit测试配置
+  /console symfony控制台前端控制器
+  /Resources 资源文件覆盖用
+  /sql (不是symfony带的)更新数据库的sql
+  /AppCache.php  ??
+  /AppKernel.php 入口类
+  /autoload.php  自动加载类
+/src    本项目代码和资源
+  /Acme 项目的vendor名(防命名冲突用)
+    /DemoBundle bundle名
+      /Command           命令行
+        /DemoCommand.php 
+      /Controller 控制器
+        /DemoController.php
+      /Form 表单
+        /DataTransformer
+        /Handler
+        /Model
+        /Type
+      /Tests 测试(单元)
+        bootstrap.php 测试启动代码
+        /Fixture 测试数据
+        /Profiler 速度测试
+
+      /DependencyInjection 依赖注入
+        /Compiler 
+          /DemoPass.php        
+        /Configuration.php     处理配置,报错或者返回一个给Extension用的配置
+        /AcmeDemoExtension.php 在编译时,由配置,向dic加入一些服务和配置
+      /Resources 资源
+        /config 配置(和bundle有关的)
+          /load.xml 配置用于配置dic
+        /public 前端资源
+          /css    前端css
+          /images 前端图片
+        /views view视图
+          /layout.html.twig
+          /Demo
+            /index.html.twig
+        /doc   文档
+        /meta
+        /translations 翻译
+          /AcmeDemoBundle.zh_CN.yml
+      /Twig 
+        /Extension twig扩展
+          /DemoExtension.php twig扩展
+      /Model
+        ... 此处目录可以随意建立
+      AcmeDemoBundle.php 配置管理这个bundle里面需要和外界交流的地方...
+
+      
+      /Entity doctrine orm的逻辑对象
+      /CouchDocument ??
+      /Doctrine ??
+      /Document ??
+      /Propel
+      /CacheWarmer
+      /EventListener 事件监听
+      /Event 事件
+      /Exception 异常
+      .... 此处目录可以随便建立
+      
+/vendor 第三方代码和资源
+/web    web前端目录,应该包含前端控制
+  /app_dev.php 开发用前端控制器
+  /app.php     上线后的前端控制器
+  /config.php  开发用的在web上配置项目的入口
+  /favicon.ico 图标
+  /robots.txt  
+  /bundles     前端资源(css,js,图片)

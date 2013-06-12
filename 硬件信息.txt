@@ -1,0 +1,2 @@
+在linux下的硬件信息
+dmidecode

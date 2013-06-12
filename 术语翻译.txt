@@ -1,0 +1,76 @@
+#电商
+## 有关付款
+货币 curreny
+税 tax
+凭证?? voucher
+付款?? payment
+地址 address
+订单?? order
+购物车 cart
+退货 Product Returns
+交易?? transaction
+
+## 快递
+邮费 Shipping Rate
+邮编 post code
+
+## 优惠
+礼券 Gift Certificate
+礼券码 gift voucher code
+优惠卷 coupon
+优惠码 Coupon Code
+
+## 有关商品
+产品(商品) product
+重量 weight
+长度 length
+评论 reviews 
+审核 对评论的审核 approval
+描述 description
+商品规格 specification
+商品数量 quantity
+
+## 其他
+加盟商 affiliate
+顾客 customer
+奖品 reward
+许愿单?? wishlist
+跟踪?? tracking
+
+#网站
+验证码 captcha
+文章(cms) document
+帐号 account
+编辑 edit
+登录 login
+登出 logout
+忘记密码 forgotten
+电子报 newsletter
+密码 password
+注册 register
+成功 success
+站长(网站管理员) webmaster
+
+#邮件
+收件人 recipient
+
+#软件
+缓存 cache
+配置 config
+日志 log
+数据库 db
+加密 encryption
+图片 image
+语言 language
+分页 pagination
+请求 request
+响应 response
+http的session session
+模板 template
+http的url url
+controller
+action
+front
+loader
+model
+注册表(依赖注入容器) registry
