@@ -1,0 +1,11 @@
+## 基础
+windows下有2类api:
+MessageBoxA
+MessageBoxW
+以A结尾的api使用当前机器的codepage进行编码,在简体中文的windows下是gbk编码
+以W结尾的api使用utf16编码.
+
+## 转编码api
+MultiByteToWideChar 
+
+WideCharToMultiByte

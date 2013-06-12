@@ -1,0 +1,14 @@
+# 创建外键
+CREATE TABLE `cart_discount_item` (
+ `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+ `discountid` int(10) unsigned DEFAULT NULL,
+ `price` int(11) NOT NULL,
+ `keyid` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `itemid` int(10) unsigned NOT NULL,
+ PRIMARY KEY (`id`),
+ KEY `IDX_B58176CAEDB6DCAB` (`discountid`),
+ CONSTRAINT `FK_B58176CAEDB6DCAB` FOREIGN KEY (`discountid`) REFERENCES `cart_discount` (`discountid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
+
+# 删除外键
+alter table cart_discount_item drop foreign key FK_B58176CAEDB6DCAB;

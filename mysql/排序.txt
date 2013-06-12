@@ -1,0 +1,10 @@
+## 排序:
+** SELECT name, birth FROM pet ORDER BY birth
+排序,默认从小到大(ASC)
+** SELECT name, birth FROM pet ORDER BY birth DESC;
+从大到小排序
+** SELECT name, species, birth FROM pet ORDER BY species, birth DESC;
+先按照species从小到大排序,如果有几行的species一样,会将一样的那几行再按照birth从大到小排序
+
+** SELECT DISTINCT owner FROM pet;
+取出不重复的值

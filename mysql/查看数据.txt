@@ -1,0 +1,18 @@
+# 查看数据:
+## 常用:
+**SELECT * FROM `table_name`
+取出某张表的所有数据
+
+** SELECT * FROM `table_name` WHERE name = 'Bowser'
+条件查询部分内容
+
+** SELECT name, birth FROM pet
+只取某些列
+
+** SELECT name, birth, CURDATE(),
+(YEAR(CURDATE())-YEAR(birth))
+    	- (RIGHT(CURDATE(),5)<RIGHT(birth,5))
+    	AS age
+    	FROM pet;
+1.可以在select的字段部分写一些表达式,mysql会在每一行里面计算那些值.优点:速度可能快,缺点:容易出现代码重复,表达式太复杂的时候不清晰.结论:开发软件的时候这样的东西应该少用,应该在程序的其他部分,处理这些逻辑.
+2.可以用 as 更换返回的字段名.

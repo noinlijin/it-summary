@@ -1,0 +1,2 @@
+make clean 删除项目里面的垃圾文件
+make 

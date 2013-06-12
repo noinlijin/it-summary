@@ -1,0 +1,2 @@
+ubuntu 1004网络同步时间
+ntpdate ntp.ubuntu.com

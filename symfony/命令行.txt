@@ -1,0 +1,23 @@
+#doctrine数据库metadata管理
+## !!导出注意!!
+很不靠谱,
+* 各种没有主键失败..
+* 不支持数据库的枚举类型
+* 不支持表没有主键
+* 即使doctrine不需要管理那个表.也要求metadata没有"错误"
+* 需要整个db里面没有"错误的"metadata
+
+## !!跟踪变化注意!!
+也很不靠谱
+* 生成很多奇怪的alter table change 和很多drop index
+
+## 把已经存在的数据库metadata导出到xml
+php app/console doctrine:mapping:convert xml ./src/Bzs/FruitBundle/Resources/config/doctrine/metadata/orm --from-database --force
+php app/console doctrine:mapping:import --env test BzsFruitBundle xml
+
+## 把已经存在的数据库metadata导出到类的注释里面,生成get和set方法
+php app/console doctrine:mapping:import --env test BzsFruitBundle annotation
+php app/console doctrine:generate:entities --env test BzsFruitBundle
+
+## 数据库变化
+
