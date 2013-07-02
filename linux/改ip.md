@@ -1,10 +1,14 @@
+```
 vim /etc/network/interface
-
+```
 # loopback回环
+```
 auto lo
 iface lo inet loopback
+```
 
 # 静态ip
+```
 auto eth0
 iface eth0 inet static
     address 192.168.1.5
@@ -15,3 +19,4 @@ iface eth0 inet static
     # dns-* options are implemented by the resolvconf package, if installed
     dns-nameservers 192.168.1.1
     dns-search dashu.us
+```
