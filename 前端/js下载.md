@@ -1,6 +1,7 @@
 # chrome下可用的下载完成事件
 * 原因: chrome下面不会在iframe上面抛出load事件
 * 由客户端发送一个cookie的key,然后由服务器端发送这个cookie过来.客户端轮询判断这个cookie是否存在.如果存在表示下载完毕...
+
 ```
 //显示动画
 Util.gif.open();
