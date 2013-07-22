@@ -1,3 +1,12 @@
+## 使用here doc 
+* 转义问题终极解决方案 -> 完全不转义
+### 在某个命令的参数处使用
+```
+echo "`cat <<'SQLEOF'
+xxx''xxx'xxx'xx  123123    123123
+SQLEOF`"
+```
+
 ## bash打引号问题
 参考资料: http://www.grymoire.com/Unix/Quote.html
 
@@ -18,7 +27,4 @@ echo 'What the *heck* is a $ doing here???'
 ```
 
 ## 使用双引号"
-未完待续
-
-## 使用here is
 未完待续
