@@ -21,6 +21,7 @@ value:
 
 * http_query协议表述
 (去掉换行,并且进行url的encode)
+
 ```
 type=InSimpleConditionalExpress&
 value[field]=id&
