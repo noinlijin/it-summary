@@ -4,7 +4,19 @@
 ```
 echo "`cat <<'SQLEOF'
 xxx''xxx'xxx'xx  123123    123123
+abc'asdf"
+$(dont-execute-this)
+foo"bar"''
 SQLEOF`"
+```
+
+### 赋值
+```
+VAR="`cat <<'VAREOF'
+abc'asdf"
+$(dont-execute-this)
+foo"bar"''
+VAREOF`"
 ```
 
 ## bash打引号问题
