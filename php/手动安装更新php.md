@@ -16,6 +16,7 @@ pecl install apc
 ### 配置参数
 #### 开发(能开的就开,不要过时的扩展)
 ```
+sudo apt-get install libxml2-dev make autoconf libicu-dev g++ libcurl4-openssl-dev libbz2-dev libgd2-xpm-dev libreadline-dev g++
 ./configure --with-apxs2=/usr/bin/apxs2 --with-mysql --enable-mbstring --enable-intl \
  --with-openssl --with-zlib --enable-bcmath --with-bz2 --with-curl --enable-ftp --with-gd \
  --with-mysqli --with-pdo-mysql --with-readline --enable-shmop --enable-soap --enable-sockets \
