@@ -20,7 +20,8 @@ sudo apt-get install libxml2-dev make autoconf libicu-dev g++ libcurl4-openssl-d
 ./configure --with-apxs2=/usr/bin/apxs2 --with-mysql --enable-mbstring --enable-intl \
  --with-openssl --with-zlib --enable-bcmath --with-bz2 --with-curl --enable-ftp --with-gd \
  --with-mysqli --with-pdo-mysql --with-readline --enable-shmop --enable-soap --enable-sockets \
- --enable-sysvmsg --enable-sysvsem --enable-sysvshm --enable-zip --enable-mysqlnd --with-pear
+ --enable-sysvmsg --enable-sysvsem --enable-sysvshm --enable-zip --enable-mysqlnd --with-pear \
+ --enable-opcache
 ```
 #### 最小
 ```
