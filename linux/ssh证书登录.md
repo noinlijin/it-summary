@@ -1,6 +1,12 @@
 ## ssh login with cert 用证书登录ssh 可以不提供密码
 * https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 
+### 概念
+* 你需要在本机生成一个ssh证书,
+* 将这个证书的公钥添加到某个服务器下的某个用户的ssh认证列表中.
+* 这样就可以在本机上使用这个证书登录该服务器上的该用户了,不需要使用密码.
+
+
 ### 客户端生成证书
 ```
 mkdir ~/.ssh
