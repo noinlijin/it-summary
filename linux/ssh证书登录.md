@@ -23,12 +23,12 @@ ssh-copy-id <username>@<host>
 #### 方法2
 ##### 先把你的证书的公钥 scp 到服务器上(在客户端执行)
 ```
-scp ~/.ssh/id_rsa.pub xxx@xxx:~/
+scp ~/.ssh/id_rsa.pub <username>@<host>:~/
 ```
 
 ##### 再把你的证书的公钥 追加到服务的某个用户的证书列表的后面(在服务器端执行)
 ```
-cat ~/id_rsa.pub >> /home/xxx/.ssh/authorized_keys
+cat ~/id_rsa.pub >> /home/<username>/.ssh/authorized_keys
 ```
 
 * 注意:一定是追加,不要把别人的证书覆盖了
