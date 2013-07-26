@@ -1,5 +1,6 @@
 ## select语法树
 * 来源 http://dev.mysql.com/doc/refman/5.5/en/select.html
+
 ```
 SELECT
     [ALL | DISTINCT | DISTINCTROW ]
