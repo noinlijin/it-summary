@@ -33,3 +33,7 @@ cat ~/id_rsa.pub >> /home/<username>/.ssh/authorized_keys
 
 * 注意:一定是追加,不要把别人的证书覆盖了
 * 没有权限时可以用`sudo bash`提权
+
+
+##github官方教程
+https://help.github.com/articles/generating-ssh-keys
