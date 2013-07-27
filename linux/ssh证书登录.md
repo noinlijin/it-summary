@@ -1,5 +1,6 @@
 ## ssh login with cert 用证书登录ssh 可以不提供密码
 * https://help.ubuntu.com/community/SSH/OpenSSH/Keys
+* https://help.github.com/articles/generating-ssh-keys
 
 ### 概念
 * 你需要在本机生成一个ssh证书,
@@ -8,6 +9,9 @@
 
 
 ### 客户端生成证书
+* 如果你以前在这个机器的这个用户上生成过证书,再次生成证书,会覆盖掉上一个证书,
+* 上一个证书注册的那些服务器都会失效需要重新注册
+
 ```
 mkdir ~/.ssh
 chmod 700 ~/.ssh
